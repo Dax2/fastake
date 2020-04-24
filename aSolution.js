@@ -22,3 +22,10 @@ var isSquare = function(n){
   //very readable to me
 
   const isSquare = n => Number.isInteger(Math.sqrt(n));
+
+
+  //also this solution uses a nice check on the whole number situation. Is life meaningful?
+
+  var isSquare = function(n){
+    return Math.sqrt(n) % 1 == 0;
+  }
