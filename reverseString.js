@@ -13,3 +13,12 @@ function reverseIt(str) {
 function reverseIt(str) {
     return str.split('').reverse().join('');
 }
+
+// using a decrementing for loop. no built in methods. 
+function reverseString(str) {
+    var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
