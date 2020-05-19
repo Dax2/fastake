@@ -1,0 +1,8 @@
+function squareIt(numberAss){ //sorry for the lingo. this won't twork yet. just added this line to begin turning the following lines into a function.
+let numberAss=''              // here is where my problem begins. 
+let newArray=[]               // need an array to store the squared digits. 
+for ( let i=0; i<numberAss.length; i++){               // needed a loop to iterate through the passed in number.
+   
+    newArray.push(numberAss[i]*numberAss[i]);           //pushing the product of each digit times itself (the square) to my new array. 
+    }
+}
