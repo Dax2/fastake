@@ -1,14 +1,24 @@
-// first example is not refactored. started with simple a+b function to practice some logic and arrows etc. 
+let theHeightMustNotBeZero= new Error('woops bitcho, you fucked up the height must be more than zero')
+let thewidthMustNotBeZero= new Error('woops bitcho, you fucked up the width must be more than zero')
 
-let theHeightMustNotBeZero= new Error('woops bitcho, you fucked up. the height must be more than zero')  //changing it to an area calculator and adding some custom error codes. 
-
-let gugug=(a,b)=> {         //
-    if (a<0||b<0){
+let gugug=(a,b)=> {
+    if (a<0){
         return theHeightMustNotBeZero;
-    } else 
+    } 
+    
+    else if (b<0){
+        return thewidthMustNotBeZero
+    }
+
+        else 
     return a+b;
 }
 
-gugug(1,2);
+console.log('i am a pretty little puppet');
+
+
+console.log(gugug(-1,3));
+console.log(gugug(1,7));
+console.log(gugug(1,-5));
 gugug(-1,3);
 gugug(1,-4)
