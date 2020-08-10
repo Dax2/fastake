@@ -14,6 +14,14 @@ let gugug=(a,b)=> {
     return a+b;
 }
 
+function jolly () {
+    let age = prompt('what is your age?');
+    if (age>=18){
+        return alert('welcome hoe');
+    }
+     else return alert('you too young');
+    }
+
 console.log('i am a pretty little puppet');
 
 
