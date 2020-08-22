@@ -53,3 +53,8 @@ let notNeg= num=> {
     else return false; 
 }
 undefined
+let dogBreath =(dog,breath)=> {
+    dog.tostring();
+    breath.tostring();
+    console.log( dog + "has" + breath + "all the time.");
+}
