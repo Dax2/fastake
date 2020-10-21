@@ -58,3 +58,9 @@ let dogBreath =(dog,breath)=> {
     breath.tostring();
     console.log( dog + "has" + breath + "all the time.");
 }
+let jove=(x)=>{if (x < 10){
+    alert("if you don't ");
+    } else if (x>100){
+        alert("hell yeah?");
+    }
+}
