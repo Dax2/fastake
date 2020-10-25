@@ -1,3 +1,5 @@
+//this is a file with solutions for a problem asking:  write a function that takes in an intiger, determines if it is a square and returns a true false evaluation.
+
 var isSquare = function(n){
 
     if((Math.sqrt(n) % 1) == 0)
