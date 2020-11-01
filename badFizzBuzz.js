@@ -1,6 +1,6 @@
 //not working. getting a syntax error; "invalid left hand side in assignment."
 
-//errors aside for readabiity I thought all the if else statements would look cleaner if I left bracket portions on one line as aposed to the usual enter/tab format.
+//errors aside, for readability I thought all the if else statements would look cleaner if I left bracket portions on one line as aposed to the usual enter/tab format.
 
 /*for example I wrote it this way 
 
