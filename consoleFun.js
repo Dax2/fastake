@@ -1,5 +1,5 @@
 
-//a few fun tips from #codedrip helpfull console log bits. 
+//a few fun tips from #codedrip helpfull console log stuff including console[.table,.log,.warn,.error]
 
 
 console.table({name: "daniel", hairColor:"brown"}).    
