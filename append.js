@@ -27,3 +27,15 @@ VM232:4 jon11111111
 VM232:4 jon111111111
 VM232:4 jon1111111111
 undefined
+
+
+//ok so heres some -= action. 
+
+let name = 10                 //changed name to an int because when name was a string the console executed 10 times but returned NaN each time. I miss Panera Bread.
+for ( let i=0; i<10; i++){      //initially had changed this to decrementing but realized the number of times you subtract a thing is still ten times even if the result is a lower number. 
+    name -=1;
+    console.log(name);
+}
+
+
+//result was a count down from 10 to 0. upon each iteration of the for loop name was lowered by 1 and logged. This carried us from 10 to 0. 
