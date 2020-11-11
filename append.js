@@ -1,3 +1,7 @@
+//lets call this an attempt to play with the += thing everybody does all the time. there are many ways to do this i think.
+
+//not sure how to do the -= type thing or anything to the alternative of the standard += thing. Im so limited I will expand here later. 
+
 Failed to load resource: net::ERR_FAILED
 let name = jon
 for ( let i=0; i<10; i++){
