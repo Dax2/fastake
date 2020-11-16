@@ -1,6 +1,6 @@
 let yaya=[]
 yaya.push(4,5,6,7,8,9); //->(6) [4, 5, 6, 7, 8, 9]
-yaya.push(0,1,2,3);
+yaya.push(0,1,2,3);  //->(10) [4, 5, 6, 7, 8, 9, 0, 1, 2, 3] clearly push just adds things onto the higher array indexes. some call this the top?
 consol.log(...yaya)
 yaya.pop() //removes highest index of array (some people call this the top.)
 yaya.pop(0) //removes the information stored in array index position 0 | in this case the digit 4
