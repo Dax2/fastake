@@ -88,10 +88,11 @@ let ppp=(a,b,c)=> {
     return a+b+c;
 }
 VM4192:2 Uncaught SyntaxError: Unexpected token 'return'
-let ppp=(a,b,c)=> {
+let ppp=(a,b,c)=> {                                     // i think here I'm trying to see what happens when you assign a function to oneo f the parameters. 
     c = ()=> a+b;
     return a+b+c;
 }
 undefined
 ppp(1,1,1)
 "2()=> a+b"
+
