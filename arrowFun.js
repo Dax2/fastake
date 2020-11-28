@@ -1,4 +1,4 @@
-let randomNumber=()=> Math.random
+let randomNumber=()=> Math.random               // capitalizing the Math means you have accesed the math class and are usein gone of its built in methods .random. Must make sure this is the correct use of the term class. 
 undefined
 randomNumber()
 ƒ random() { [native code] }
