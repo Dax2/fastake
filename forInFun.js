@@ -16,7 +16,7 @@ let allUsers = {
 undefined
 function getAllUsers(list){
     for (let property in list){
-        console.log(`${property}: ${list[property]}`);
+        console.log(`${property}: ${list[property]}`);                  // need to learn more about the use of ` and $ and also why did I use "property"
     }
 }
 undefined
