@@ -1,4 +1,4 @@
-let allUsers = {
+let allUsers = {            //assigning a variable to run a for/in loop on. 
     user:"jon",
 
 }
