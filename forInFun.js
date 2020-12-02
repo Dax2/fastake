@@ -21,7 +21,7 @@ function getAllUsers(list){
 }
 undefined
 getAllUsers(alllUsers)
-VM517:1 Uncaught ReferenceError: alllUsers is not defined
+VM517:1 Uncaught ReferenceError: alllUsers is not defined                  //typo: three l's in allUsers. 
     at <anonymous>:1:13
 (anonymous) @ VM517:1
 getAllUsers(allUsers)
