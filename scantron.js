@@ -1,3 +1,5 @@
+        //commenting too much lol.
+
 function checkExam(array1, array2) {            //passing in an answer sheet (array1) and a students answers (array2) to be compared
     var score = 0;                              //a global scope score variable
       for (var i = 0; i < array2.length; i++){  //for loop to look for unanswered questions
