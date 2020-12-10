@@ -13,7 +13,7 @@ let allUsers = {
     user0:"jon",
     user1:"dan",
 }
-undefined
+undefined                                                               //in spring/java the framework generates getters and setters for you. Here I am doing it manually. 
 function getAllUsers(list){
     for (let property in list){
         console.log(`${property}: ${list[property]}`);                  // need to learn more about the use of ` and $ and also why did I use "property"
