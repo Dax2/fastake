@@ -1,4 +1,9 @@
 #this is how you comment in py
+
+if you forget the # you will be writing code. works on the line you write it only.
+
+this is all considered code by the interpreter. j=3 k=4 j+k  howwever the following is # not code # still not code
+
 # so as in any real language we can't just run our code in the console in google browser. 
 
 #we have to write the code in a file. save. then run that file. 
