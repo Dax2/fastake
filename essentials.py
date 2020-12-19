@@ -50,3 +50,31 @@ Type "help", "copyright", "credits" or "license" for more information.
 11
 >>> exit()                                                      #for some reason I never forget that to end an interactive session in terminal you type exit()
 danielcontreras@Daniels-MBP ~ % 
+
+                                  #something i mistakenly thought was weird about py.youbut is actually true of js is that j=k is not an evaluation of j againt k, its an assignment statement. 
+                                  
+>>> j=3
+>>> k=5
+>>> j+k
+8
+>>> j=k
+>>> j
+5
+>>> k
+5
+>>> 
+
+              # the following is js. and it behaves just the same.  
+  
+let j=3
+undefined
+let k = 5
+undefined
+j+k
+8
+j=k
+5
+k
+5
+j
+5
