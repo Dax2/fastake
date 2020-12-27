@@ -3,12 +3,12 @@
 //not sure how to do the -= type thing or anything to the alternative of the standard += thing. Im so limited I will expand here later. 
 
 Failed to load resource: net::ERR_FAILED
-let name = jon
+let name = jon                      //later we will see an error because I did not make jon a string by using "jon". so it was jon a var.
 for ( let i=0; i<10; i++){
     name +=1;
     console.log(name);
 }
-VM227:1 Uncaught ReferenceError: jon is not defined
+VM227:1 Uncaught ReferenceError: jon is not defined      //so here its looking for a var jon. but i had meant to declare a var equal to a string. name = "jon" 
     at <anonymous>:1:12
 (anonymous) @ VM227:1
 let name = "jon"
