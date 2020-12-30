@@ -78,3 +78,9 @@ k
 5
 j
 5
+
+
+dict names = {          
+1:"daniel",
+2:"joe",
+}
