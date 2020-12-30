@@ -80,7 +80,7 @@ j
 5
 
 
-dict names = {          #ok i need to check if syntax for dict is similar to an object in js. 
-1:"daniel",
-2:"joe",
-}
+dict names =           #ok i need to check if syntax for dict is similar to an object in js. EDIT: remembered there are no curly's in py.
+  1:"daniel",
+  2:"joe",
+
