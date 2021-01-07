@@ -40,14 +40,14 @@ core.function("dan")
 let core={
         name:"name",
         userid:500,
-        changeName: function changeName(newName){ name=newName; 
+        changeName: function changeName(newName){ name=newName;                 
         return this.name + "hello"}
 }
 undefined
 core.changeName("dan")
 "namehello"
 core.changeName(dan)
-VM697:1 Uncaught ReferenceError: dan is not defined
+VM697:1 Uncaught ReferenceError: dan is not defined                        // changed my parameter to a var. completly wrong move.
     at <anonymous>:1:17
 (anonymous) @ VM697:1
 let core={
