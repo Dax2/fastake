@@ -59,3 +59,10 @@ let core={
 undefined
 core.changeName("dan")
 "namehello"
+
+ 
+   
+   //just making a for in loop work. 
+let x = [5,4,3,2,1]
+   
+for ( x in jazz) {console.log(jazz[x])}
