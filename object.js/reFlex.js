@@ -6,9 +6,9 @@ let core=(parameter1, parameter2)=> {
       userid:parameter2,
 }
 VM35:4 Uncaught SyntaxError: Unexpected token ':'
-let core={
+let core={                                              //this is a terrible name for an object. Im very sorry. 
         name:"name",
-        userid:500,
+        userid:500,           
 }
 undefined
 core.userid
