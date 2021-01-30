@@ -22,3 +22,20 @@ let war = {
     
 }
 undefined
+
+
+//discovered that manipulating objects is not as complicated as once thought.
+
+let name={                              //create an object
+    name:"ass", 
+    face:"stupid",
+
+}
+undefined
+name.j="whore"                  //to add a key:value pair just declare it like you would a variable.
+"whore"
+name.go=(a,b)=>a+b              // even more fun. you can add an arrow function in there too. even pass params into it.
+(a,b)=>a+b
+name.go(2,3)
+5                                // works just fine. 
+name
