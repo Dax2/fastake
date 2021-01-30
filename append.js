@@ -39,3 +39,8 @@ for ( let i=0; i<10; i++){      //initially had changed this to decrementing but
 
 
 //result was a count down from 10 to 0. upon each iteration of the for loop name was lowered by 1 and logged. This carried us from 10 to 0. 
+
+
+for (let i = 0; i<=100; i++){
+        console.log(i)
+}
