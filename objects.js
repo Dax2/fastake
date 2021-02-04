@@ -39,3 +39,7 @@ name.go=(a,b)=>a+b              // even more fun. you can add an arrow function 
 name.go(2,3)
 5                                // works just fine. 
 name
+
+
+// now recently I got I think a json package when a site failed to load. 
+// looked like a bunch of js objects. so uncovered a few trail heads. led to XML and SGML(standard generalized language, new to me).  
