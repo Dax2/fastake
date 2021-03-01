@@ -1,0 +1,18 @@
+/* this is a css comment*/ 
+/*style in html file via attribut (<h1 styel="color:blue;">)
+or in a style block in the head 
+<style>
+h2 {
+color:red; }
+</style>
+
+
+link to external css file in the html head
+<link rel yadayada yada yada.>
+
+*/
+ 
+
+h2 {
+  color:red;
+}
