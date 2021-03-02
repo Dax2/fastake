@@ -20,3 +20,57 @@ link to external css file in the html head
 h2 {
   color:red;
 }
+
+/* ok so here is the break down...
+add this to the head of your html file.*/
+
+<link rel="stylesheet" href="style.css">
+
+
+/*notice, href is set equal to "styel.css" let me explain:
+you need to make a file called style.css.
+the tag above links to that file.
+I could have created that file with any name for example "iCantWaitUntillSummer.css"
+
+in which case my link would look like this...*/ 
+
+
+<link rel="stylesheet" href="iCantWaitUntillSummer.css">
+
+
+/* as long as they match, your good. 
+
+Side Note: you will want to keep this name short and simple.
+Big Picture: If you aren't used to how "computers work" 
+heres a "thing" you migh asswell know: your html and your
+css file need to be in the same folder in order to work AS TYPED IN THIS EXAMPLE.
+Thats because at the simplest level, your computer is like a puppy.
+The files you make are like toys and food and water etc.
+You need to keep all those toys(files) in the same room(folder)
+as the puppy(your computers attention). If you put all that puppys
+food and water and toys in the same room it will have no 
+problem playing, and drinking and eating. However,
+if your freind puts food in the 
+puppys bowl and bowl is in the kitchen down the hall,
+the puppy will have no idea. It hasent learned about hallways,
+kitchens, bowls and how to search for them yet.
+If you want a puppy to eat you have to put the food
+RIGHT IN FRONT OF IT. Thats how a computer is.
+If you want it to know where index.html, style.css and index.js is
+youve gotta put them all the same file. A tutorial will
+often call it "myproject" file or "myfirstapp" file or something.
+
+Now hold on to your brain because heres a little more info.
+You can tell the puppy(computers attention) to look for
+food in the kitchen(find files wherever you put them).
+
+
+
+if your css file was not in "myproject" but instead was
+on your "desktop" in a folder called "learntocode" and
+in that folder you had another folder called "howtomakewebpages"
+and in that one you had a folder calles "allmycsswork" 
+and in that folder you had a file called "bluebackground.css"
+then you could use that file by linking this way. 
+
+<link rel="stylesheet" href="desktop/learntocode/howtomakewebpages/allmycsswork/bluebackground.css">
