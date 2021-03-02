@@ -71,6 +71,6 @@ on your "desktop" in a folder called "learntocode" and
 in that folder you had another folder called "howtomakewebpages"
 and in that one you had a folder calles "allmycsswork" 
 and in that folder you had a file called "bluebackground.css"
-then you could use that file by linking this way. 
+then you could use that file by linking this way. */
 
 <link rel="stylesheet" href="desktop/learntocode/howtomakewebpages/allmycsswork/bluebackground.css">
