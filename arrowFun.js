@@ -64,3 +64,5 @@ let jove=(x)=>{if (x < 10){
         alert("hell yeah?");
     }
 }
+
+let axe=(cut)=>cut-10   //chopping off 10. why? IDK, cuz axes.
