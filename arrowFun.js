@@ -66,3 +66,6 @@ let jove=(x)=>{if (x < 10){
 }
 
 let axe=(cut)=>cut-10   //chopping off 10. why? IDK, cuz axes.
+undefined   
+axe(100)        
+90     //behaves as expected.
