@@ -1,4 +1,4 @@
-let dicks = {                   //again just practicing making a setter function. really had fun writing dicks.cocks. LMFAO. why does that crack me up so!
+let dicks = {                   //again just practicing making a setter function.
     cocks:"small",
     faces:"none",
 }
