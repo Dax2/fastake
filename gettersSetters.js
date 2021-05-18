@@ -10,9 +10,9 @@ let setShirtSize=(size){                // first mistake of the day! forgot to i
         console.log("set function complete, shirt size is now" + shirts.size )
 }
 // VM531:1 Uncaught SyntaxError: Unexpected token '{'                  // js is not looking for a curly brace cuz i never told it a function was on the way. lol.
-// let setCocksSize=(size)
-//         dicks.cocks=size,
-//         console.log("set function complete, cock size is now" + dicks.cocks )
+// let setshirtsSize=(size)
+//         shirts.size=size,
+//         console.log("set function complete, shirt size is now" + shirts.size )
 
 // VM543:1 Uncaught ReferenceError: size is not defined
 //     at <anonymous>:1:18
