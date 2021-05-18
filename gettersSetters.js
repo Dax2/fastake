@@ -1,13 +1,13 @@
-let dicks = {                   //again just practicing making a setter function.
-    cocks:"small",
+let shirts = {                   //again just practicing making a setter function.
+    size:"small",
     faces:"none",
 }
 undefined
-dicks.cocks="huge"              //manually changing the value of dicks.cocks to a different size. 
+shirts.size="huge"              //manually changing the value of shirts.size to a different size. 
 "huge"
-let setCocksSize=(size){                // first mistake of the day! forgot to include the arrow syntax. 
-        dicks.cocks=size,
-        console.log("set function complete, cock size is now" + dicks.cocks )
+let setShirtSize=(size){                // first mistake of the day! forgot to include the arrow syntax. 
+        shirts.size=size,
+        console.log("set function complete, shirt size is now" + shirts.size )
 }
 VM531:1 Uncaught SyntaxError: Unexpected token '{'                  // js is not looking for a curly brace cuz i never told it a function was on the way. lol.
 let setCocksSize=(size)
